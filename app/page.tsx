@@ -26,10 +26,11 @@ export default function Home() {
           projects={projects}
           onSelectProject={(project) => setSelectedProject(project)}
         />
-        <BentoProjects
+        {/* Hidden: Other Software & Utilities section preserved for future use */}
+        {/* <BentoProjects
           projects={projects}
           onSelectProject={(project) => setSelectedProject(project)}
-        />
+        /> */}
         <ExperienceSection />
         <TechStackSection />
         <ContactFooter />

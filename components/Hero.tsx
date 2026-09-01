@@ -36,7 +36,7 @@ export function Hero() {
             <div className="flex flex-wrap items-center gap-2 text-xs text-[#86868b] pt-0.5">
               <span>📍 Campinas, Brazil</span>
               <span>•</span>
-              <span className="text-emerald-400">● Open to remote roles</span>
+              <span>Software Engineer @ CI&T</span>
             </div>
           </div>
         </div>
