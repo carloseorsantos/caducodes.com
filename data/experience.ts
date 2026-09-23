@@ -14,7 +14,7 @@ export const experiences: ExperienceItem[] = [
     company: "CI&T",
     role: "Full-Stack Software Engineer",
     location: "Campinas - SP, Brazil",
-    period: "2020 – Present (4+ Years)",
+    period: "2020 — Now",
     companyUrl: "https://www.ciandt.com/",
     description:
       "Engineered mission-critical web applications, high-throughput microservices, and modern frontend platforms for leading enterprise clients. Championed code quality, clean architecture, automated CI/CD pipelines, and high-performance user experiences.",
@@ -37,8 +37,8 @@ export const experiences: ExperienceItem[] = [
     ],
   },
   {
-    company: "Open Source Creator & Native macOS Developer",
-    role: "Independent Systems & macOS Software Developer",
+    company: "Open Source",
+    role: "Independent macOS Developer",
     location: "Campinas - SP, Brazil",
     period: "Ongoing",
     description:

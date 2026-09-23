@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://caducodes.com"),
@@ -60,8 +63,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
-      <body className="bg-black text-[#f5f5f7] antialiased min-h-screen font-sans selection:bg-zinc-800 selection:text-white">
+    <html lang="en" className={inter.variable}>
+      <body className="min-h-screen font-sans">
         {children}
       </body>
     </html>
