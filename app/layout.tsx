@@ -51,9 +51,10 @@ export const metadata: Metadata = {
     images: ["https://github.com/carloseorsantos.png"],
     creator: "@caducodes",
   },
+  // Temporarily hidden from search engines while the site is under construction.
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
 };
 
