@@ -4,12 +4,12 @@ import type { CSSProperties } from "react";
 // app/_portfolio/Portfolio.tsx (the underscore keeps it out of routing);
 // to bring it back, render <Portfolio /> here again.
 
-const EMAIL = "carloseorsantos@gmail.com";
+const X_URL = "https://x.com/caducodes";
 
 const links = [
   { label: "GitHub", href: "https://github.com/carloseorsantos" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/carloseorsantos/" },
-  { label: "Email", href: `mailto:${EMAIL}` },
+  { label: "X", href: X_URL },
 ];
 
 export default function Home() {
@@ -29,9 +29,9 @@ export default function Home() {
           Under construction
         </p>
         <p>
-          This site is being rebuilt and will be back soon. In the meantime, you can reach me at{" "}
-          <a href={`mailto:${EMAIL}`} className="link">
-            {EMAIL}
+          This site is being rebuilt and will be back soon. In the meantime, you can find me on{" "}
+          <a href={X_URL} target="_blank" rel="noopener noreferrer" className="link">
+            X (@caducodes)
           </a>
           .
         </p>
