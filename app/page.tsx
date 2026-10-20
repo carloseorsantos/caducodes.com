@@ -7,6 +7,7 @@ import type { CSSProperties } from "react";
 const X_URL = "https://x.com/caducodes";
 
 const links = [
+  { label: "Blog", href: "/blog" },
   { label: "GitHub", href: "https://github.com/carloseorsantos" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/carloseorsantos/" },
   { label: "X", href: X_URL },
