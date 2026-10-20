@@ -14,6 +14,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        serif: ["var(--font-serif)", "Charter", "Georgia", "serif"],
       },
     },
   },
